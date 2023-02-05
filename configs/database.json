@@ -1,8 +1,8 @@
 {
-    "DBHOST": "185.81.93.66",
-    "DBUSER": "hunter",
-    "DBPASS": "Ma$ter0fpapets$",
+    "DBHOST": "localhost",
+    "DBUSER": "root",
+    "DBPASS": "",
     "DBNAME": "Test",
-    "DBPORT": "3308",
+    "DBPORT": "3306",
     "DBCHAR": "utf8mb4"
 }
