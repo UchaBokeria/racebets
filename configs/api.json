@@ -1,0 +1,7 @@
+{
+    "api_entry": "racebets/",
+    "api_errors": {
+        "display": true,
+        "errors": "E_ERROR"
+    }
+}

@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+
+   RewriteEngine On
+
+   RewriteCond %{REQUEST_FILENAME} -f [OR]
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteRule .* - [e=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+   RewriteRule ^(.*)$ http.php [L,QSA]
+
+</IfModule>
